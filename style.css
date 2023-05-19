@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+  min-height: 100vh;
+}
+body main {
+  display: inline-block;
+  margin-top: 5%;
+  position: relative;
+}
+body main .pokedex {
+  width: 100%;
+  padding: 15px;
+  max-width: 700px;
+}
+body main #pokemon-image {
+  position: absolute;
+  bottom: 51%;
+  left: 35%;
+  height: 18%;
+  transform: translate(3%, 1%);
+}
+body main .pokemon_data {
+  position: absolute;
+  text-decoration: underline;
+  color: rgba(35, 37, 36, 0.856);
+  top: 54%;
+  right: 27%;
+  font-size: 130%;
+}
+body main .pokemon_data #pokemon-name {
+  color: black;
+  text-transform: capitalize;
+}
+body main .form {
+  position: absolute;
+  color: black;
+  width: 60%;
+  top: 65%;
+  left: 13.3%;
+}
+body main .form .input_search {
+  background-color: #383838;
+  border: 1ex solid none;
+  border-top-width: 1.7em;
+  margin: 1rem;
+  padding: 0;
+  color: #383838;
+  word-wrap: break-word;
+  outline: 7px solid #383838;
+  height: 30px;
+  font-size: 17px;
+  text-align: center;
+  transition: all 1s;
+  width: 100%;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+body main .form .input_search:hover {
+  border-top-width: 0.2em;
+  background-color: #f1e8e8;
+}
+body main .form .input_search:focus {
+  border-top-width: 0.2em;
+  background-color: #f1e8e8;
+}
+body main .buttons {
+  position: absolute;
+  right: 40%;
+  bottom: 9.3%;
+  display: flex;
+  gap: 10px;
+}
+body main .buttons .btn {
+  width: 50%;
+  padding: 0.5rem;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 600;
+  color: rgb(219, 210, 210);
+  background-color: rgb(15, 14, 14);
+  box-shadow: -2px 2px 0 rgb(122, 120, 120);
+  cursor: pointer;
+}
+body main .buttons .btn:active {
+  background-color: red;
+  box-shadow: inset -2px 2px 0 rgb(122, 120, 120);
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=style.css.map */
